@@ -16,5 +16,5 @@ export const Timer = () => {
       };
     });
   
-    return <h1>{`count is: ${counter}`}</h1>;
+    return <h1>{count === 0?"Count ${count}":"Times Up"}</h1>;
 }

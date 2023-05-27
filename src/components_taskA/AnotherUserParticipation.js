@@ -1,4 +1,6 @@
 import React from 'react'
+import {props} from 'react'
+import { ThanksYouMessage } from './ThanksYouMessage'
 
 export const AnotherUserParticipation = () => {
     const answers = [
