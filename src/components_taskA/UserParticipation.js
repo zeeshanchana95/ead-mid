@@ -1,4 +1,5 @@
 import React from 'react'
+import { ThanksYouMessage } from './ThanksYouMessage'
 
 export const UserParticipation = (props) => {
     const answers = [
@@ -24,7 +25,12 @@ export const UserParticipation = (props) => {
     }
 
     const submitVotes = () => {
-        return <h1>Thank You for your votes</h1>
+        return (
+            <>
+                <ThanksYouMessage />
+               
+            </>
+        )
     }
     return (
    <>

@@ -16,10 +16,10 @@ export const PollDisplay = () => {
     ]
     const openParticipation =  () => {
         return <UserParticipation 
-            vote1 = {setOption1Votes} setOption1Votes = {setOption1Votes}
-            vote2 = {setOption2Votes} setOption2Votes = {setOption2Votes}
-            vote3 = {setOption3Votes} setOption3Votes = {setOption3Votes}
-            vote4 = {setOption4Votes} setOption4Votes = {setOption4Votes}
+            vote1 = {votesOption1} setOption1Votes = {setOption1Votes}
+            vote2 = {votesOption2} setOption2Votes = {setOption2Votes}
+            vote3 = {votesOption3} setOption3Votes = {setOption3Votes}
+            vote4 = {votesOption4} setOption4Votes = {setOption4Votes}
         />
     }
   return (
