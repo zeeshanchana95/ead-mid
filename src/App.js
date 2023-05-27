@@ -1,11 +1,15 @@
 import './App.css';
-import { Timer } from './components_taskB/Timer';
+import { PollDisplay } from './components_taskA/PollDisplay';
+import { UserParticipation } from './components_taskA/UserParticipation';
+// import { Timer } from './components_taskB/Timer';
 
 function App() {
-  
   return (
     <div className="App">
-      <Timer />
+      {/* <Timer /> */}
+      <h1>Polling App</h1>
+      <PollDisplay />
+      <UserParticipation />
     </div>
   );
 }
