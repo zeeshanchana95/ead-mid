@@ -2,7 +2,7 @@ import React from 'react'
 import { useState, useEffect } from 'react'
 export const Timer = () => {
     const [counter, setCounter] = useState(10);
-    var msg = `Count is: ${counter}`
+    
     useEffect(() => {
     const interval = setInterval(() => {
         setCounter(count => counter - 1);
@@ -11,11 +11,10 @@ export const Timer = () => {
     return () => {
         
         if(counter <= 0){
-            clearInterval(interval)
-            setCounter(count => count=0)
+            clearInterval(interval)     
         }
       };
     });
   
-    return <h1>{msg}</h1>;
+    return <h1>{`count is: ${counter}`}</h1>;
 }
